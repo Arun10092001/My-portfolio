@@ -21,7 +21,7 @@ const portfolio = {
   links: {
     github: "https://github.com/Arun10092001",
     linkedin: "https://www.linkedin.com/in/arun-gokul-465540312",
-    resume: "/ARUN GOKUL.RESUME.pdf",
+    resume: "/ARUN GOKUL123.pdf",
   },
 };
 
