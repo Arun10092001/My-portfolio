@@ -1,6 +1,36 @@
-import { ExternalLink, GitBranch, LayoutDashboard, ListChecks } from "lucide-react";
+import {
+  ExternalLink,
+  GitBranch,
+  LayoutDashboard,
+  ListChecks,
+} from "lucide-react";
 
 const projects = [
+  {
+    title: "ChitChat Application",
+    subtitle: "Real-Time Chat Platform",
+    type: "Full Stack Web Application",
+    role: "Python Full Stack Developer",
+    description:
+      "Developed a real-time chat platform with room-based communication, private messaging, user authentication, and persistent message storage using PostgreSQL and SQLAlchemy.",
+    stack: [
+      "Python",
+      "Flask",
+      "Flask-SocketIO",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "JavaScript",
+      "HTML",
+      "CSS",
+    ],
+    features: [
+      "Implemented real-time messaging and room-based chat using Flask-SocketIO",
+      "Built secure user authentication with password hashing and session management",
+      "Stored users and chat history in PostgreSQL using SQLAlchemy ORM",
+    ],
+    live: "https://chat-xuaz.onrender.com",
+    github: "https://github.com/arungokul/Chat",
+  },
   {
     title: "MovieManiac",
     subtitle: "React Movie Search App",
@@ -15,7 +45,7 @@ const projects = [
       "Clean browsing flow for quick movie discovery",
     ],
     live: "https://movie-maniac-dun.vercel.app/",
-    github: "https://github.com/arungokul/moviemaniac",
+    github: "https://github.com/arungokul10092001/moviemaniac",
   },
   {
     title: "E-Commerce Application",
