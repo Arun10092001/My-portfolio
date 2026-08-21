@@ -1,19 +1,30 @@
 const skillGroups = [
   {
-    title: "Frontend",
-    skills: ["HTML", "CSS", "React", "Tailwind CSS"],
-  },
-  {
     title: "Languages",
-    skills: ["Python", "Javascript", "SQL"],
+    skills: ["Python", "JavaScript", "SQL"],
   },
   {
     title: "Backend",
-    skills: ["Node js", "Express js", "REST APIs", "Fast API"],
+    skills: [
+      "Django",
+      "Django REST Framework",
+      "FastAPI",
+      "Flask",
+      "REST APIs",
+      "JWT Authentication",
+    ],
   },
   {
     title: "Database",
-    skills: ["PostgreSQL", "MySQL", "Mongo DB"],
+    skills: ["PostgreSQL", "MySQL", "SQLAlchemy"],
+  },
+  {
+    title: "Frontend",
+    skills: ["React.js", "HTML5", "CSS3", "Tailwind CSS"],
+  },
+  {
+    title: "Tools & DevOps",
+    skills: ["Docker", "Git", "GitHub", "Postman"],
   },
 ];
 

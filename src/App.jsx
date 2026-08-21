@@ -13,7 +13,7 @@ const portfolio = {
   name: "Arun Gokul",
   role: "Software Developer",
   intro:
-    "Software Developer specializing in React, Python, SQL, Fast API and PostgreSQL.",
+    "Software Developer specializing in Python, Django, FastAPI, SQL, and PostgreSQL, focused on building scalable REST APIs and backend applications.",
   email: "gokularun529@gmail.com",
   phone: "+91 88706 44363",
   location: "India",
